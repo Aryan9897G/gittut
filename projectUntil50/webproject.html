@@ -17,52 +17,92 @@
         .logo {
             display: inline-block;
             width: 7%;
+            padding: 1% 5%;
+            height: 9%;
         }
 
         img {
-            position: static;
+     
     height: 100%;
     width: 100%;
-    margin: 0 50%;
-    margin-top: 10%;
     border-radius: 100%;
-    opacity: .7;
+    opacity: .9;
  
         }
 
-        .searchbar {border: 2px solid white;
-            display: inline-block;
-            width: 80%;
+        .searchbar { border:  2px solid white;
+    display: flex;
+    width: 74%;
+    margin: 2% 5% 4% 1%;
+    border-radius: 18px;
+     padding: 4px 18px 0px 24px;
+    align-self: flex-end;
         
+        }
+        form input{
+            text-align: center;
+            width: 46%;
+    height: 91%;
+    display: inline-block;
+    border-radius: 13px;
+        }
+        .form {
+            width:80%;
+        }
+        .searchbar div{
+            font-size: larger;
+  
+    margin: 0.3% 0.5%
+        }
+        .btn{
+            font-size: large;
+  border-radius: 6px;
         }
 
         .nav {
             border: 2px solid red;
          
-            display:block;
+            display:flex;
+            flex-direction: row;
          
 
         }
 
         .headr {
             border: 2px solid green;
-            height: 50px;
-            display: block;
+            padding-left: 5%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .option{
+            margin: 0.5% 1.5%;
+            border: 2px solid white;
+            padding: 0.8% 1.3%;
+            background-color: azure;
+            border-radius: 5px;
+        }
+        a{
+            text-decoration: none;
         }
 
         .con {
             display: flex;
-            /* width: 100%; */
+            width: 99%;
             border: 2px solid black;
             flex-direction: row;
             flex-wrap: wrap;
+            position: absolute;
+            top: 50%;
+       
 
         }
 
         .item {
-            width: 20%;
+            width: 25%;
+            height: 40%;
             border: 2px solid red;
             /* margin: 0% 1.5%; */
+            background-color: rgb(224, 248, 158);
             margin: auto;
             text-align: center;
         }
@@ -76,20 +116,31 @@
             <img src="img/imgl.jpg" \>
         </div>
         <div class="searchbar">
-            hello
+            <form class="form">
+                <input type="search" placeholder="use current location">
+                <input type="search" placeholder="search for restaurant">
+            </form>
+                <div>Login</div>
+                <div><button class="btn">Register</button></div> 
         </div>
     </navbar>
     <header class="headr">
-        hii
+        <div class="option"><a href="">Filters</a></div>
+        <div class="option"><a href="">Pure Veg</a></div>
+        <div class="option"><a href="">Non-Veg</a></div>
+        <div class="option"><a href="">Rating</a></div>
+        <div class="option"><a href="">Great Offers</a></div>
+      
     </header>
     <content class="con">
-        <div class="item">hello Lorem, ipsum dolor sit amet consectetur
-            adipisicing elit. Quos, cumque temporibus in eos nobis alias magnam tempore quidem
-            non velit qui dolorem odit? Ipsa ut numquam itaque. Assumenda, fugit deserunt!
+        <div class="item"><img src="img/OIP (6).jpeg">
         </div>
-        <div class="item">guuys</div>
-        <div class="item">hello</div>
-        <div class="item">class</div>
+        <div class="item"><img src="img/download.jpeg"></div>
+        <div class="item"><img src="img/OIP (1).jpeg"></div>
+          
+        <div class="item"><img src="img/last.jpeg"></div>
+        <div class="item"><img src="img/OIP (4).jpeg"></div>
+        <div class="item"><img src="img/OIP (5).jpeg"></div>
 
     </content>
     <footer class="foo">
