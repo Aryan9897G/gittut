@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "..\\c tutorials course"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "git",
+		"editor.mouseWheelZoom": true,
+		"diffEditor.wordWrap": "on"
+	}
+}
